@@ -4,6 +4,11 @@ from PyQt5.QtWidgets import *
 
 'issue4'
 'issue5'
+'시작'
+'6'
+
+'dksud'
+'dd'
 
 
 class Main(QDialog):
