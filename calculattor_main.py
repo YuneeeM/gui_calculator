@@ -2,7 +2,8 @@ import sys
 
 from PyQt5.QtWidgets import *
 
-'시작'
+'issue4'
+'issue5'
 
 
 class Main(QDialog):
