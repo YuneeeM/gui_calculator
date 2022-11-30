@@ -6,6 +6,9 @@ from PyQt5.QtWidgets import *
 'issue5'
 
 
+'d'
+
+
 class Main(QDialog):
     def __init__(self):
         super().__init__()
