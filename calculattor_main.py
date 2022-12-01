@@ -1,18 +1,20 @@
 import sys
 
-from PyQt5.QtWidgets import *
+from PyQt5.QtWidgets import *  # pyqt5의 위젯을 불러옴
 
 '''issue6
     숫자 입력부분 통합
 '''
 
 
-class Main(QDialog):
+class Main(QDialog):  # 메인 클래스 생성
     def __init__(self):
         super().__init__()
-        self.init_ui()
+        self.init_ui()  # init_ui 메소드에서 모든 작업이 이뤄짐
 
     def init_ui(self):
+
+        ##layout##
         main_layout = QVBoxLayout()
 
         # 각 위젯을 배치할 레이아웃을 미리 만들어 둠
@@ -23,12 +25,6 @@ class Main(QDialog):
 
         self.temp_number = 0
         self.temp_operator = ""
-
-        # 수식 입력과 답 출력을 위한 LineEdit 위젯 생성
-        #label_equation = QLabel("Equation: ")
-        #label_solution = QLabel("Number: ")
-        #self.equation = QLineEdit("")
-        #self.solution = QLineEdit("")
 
         'issue 6 - 수식 입력 및 답 출력을 위한 LineEdit 위젯 생성'
         self.equation = QLineEdit("")
