@@ -1,4 +1,4 @@
-# Gui_Calculator
+# Gui_Calculator -수업시간 출석체크 제출용
 
 One Paragraph of project description goes here
 
